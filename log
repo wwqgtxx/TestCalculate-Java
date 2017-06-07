@@ -1,0 +1,35 @@
+"C:\Program Files\Java\jdk1.8.0_111\bin\java" "-javaagent:D:\IntelliJ IDEA 2017.1\lib\idea_rt.jar=5177:D:\IntelliJ IDEA 2017.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;D:\IdeaProjects\TestCalculate\target\classes;C:\Users\Administrator.WIN-1BPJP5H56ES\.m2\repository\com\github\dpaukov\combinatoricslib3\3.2.0\combinatoricslib3-3.2.0.jar;C:\Users\Administrator.WIN-1BPJP5H56ES\.m2\repository\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;C:\Users\Administrator.WIN-1BPJP5H56ES\.m2\repository\org\apache\logging\log4j\log4j-core\2.8.2\log4j-core-2.8.2.jar" xyz.wwqgtxx.testcalculate.App
+2017-06-07 20:04:21,124 INFO  [main] testcalculate.App (App.java:58) : first_step_data_list,size=30
+2017-06-07 20:04:21,138 INFO  [main] testcalculate.App (App.java:78) : when i=1 count=30
+2017-06-07 20:04:21,151 INFO  [main] testcalculate.App (App.java:78) : when i=2 count=165
+2017-06-07 20:04:21,178 INFO  [main] testcalculate.App (App.java:78) : when i=3 count=390
+2017-06-07 20:04:21,261 INFO  [main] testcalculate.App (App.java:78) : when i=4 count=630
+2017-06-07 20:04:21,352 INFO  [main] testcalculate.App (App.java:78) : when i=5 count=780
+2017-06-07 20:04:21,606 INFO  [main] testcalculate.App (App.java:78) : when i=6 count=955
+2017-06-07 20:04:22,655 INFO  [main] testcalculate.App (App.java:78) : when i=7 count=800
+2017-06-07 20:04:24,927 INFO  [main] testcalculate.App (App.java:78) : when i=8 count=900
+2017-06-07 20:04:31,960 INFO  [main] testcalculate.App (App.java:78) : when i=9 count=500
+2017-06-07 20:04:47,413 INFO  [main] testcalculate.App (App.java:78) : when i=10 count=660
+2017-06-07 20:05:18,003 INFO  [main] testcalculate.App (App.java:78) : when i=11 count=240
+2017-06-07 20:06:16,039 INFO  [main] testcalculate.App (App.java:78) : when i=12 count=390
+2017-06-07 20:07:46,782 INFO  [main] testcalculate.App (App.java:78) : when i=13 count=120
+2017-06-07 20:09:47,150 INFO  [main] testcalculate.App (App.java:78) : when i=14 count=190
+2017-06-07 20:12:09,217 INFO  [main] testcalculate.App (App.java:78) : when i=15 count=10
+2017-06-07 20:14:28,365 INFO  [main] testcalculate.App (App.java:78) : when i=16 count=100
+2017-06-07 20:16:29,551 INFO  [main] testcalculate.App (App.java:78) : when i=17 count=0
+2017-06-07 20:18:05,954 INFO  [main] testcalculate.App (App.java:78) : when i=18 count=60
+2017-06-07 20:19:07,218 INFO  [main] testcalculate.App (App.java:78) : when i=19 count=0
+2017-06-07 20:19:43,052 INFO  [main] testcalculate.App (App.java:78) : when i=20 count=0
+2017-06-07 20:20:02,493 INFO  [main] testcalculate.App (App.java:78) : when i=21 count=0
+2017-06-07 20:20:11,114 INFO  [main] testcalculate.App (App.java:78) : when i=22 count=20
+2017-06-07 20:20:14,294 INFO  [main] testcalculate.App (App.java:78) : when i=23 count=0
+2017-06-07 20:20:15,417 INFO  [main] testcalculate.App (App.java:78) : when i=24 count=0
+2017-06-07 20:20:15,782 INFO  [main] testcalculate.App (App.java:78) : when i=25 count=0
+2017-06-07 20:20:15,877 INFO  [main] testcalculate.App (App.java:78) : when i=26 count=0
+2017-06-07 20:20:15,903 INFO  [main] testcalculate.App (App.java:78) : when i=27 count=0
+2017-06-07 20:20:15,913 INFO  [main] testcalculate.App (App.java:78) : when i=28 count=0
+2017-06-07 20:20:15,915 INFO  [main] testcalculate.App (App.java:78) : when i=29 count=0
+2017-06-07 20:20:15,916 INFO  [main] testcalculate.App (App.java:78) : when i=30 count=1
+2017-06-07 20:20:15,916 INFO  [main] testcalculate.App (App.java:81) : result=6942
+
+Process finished with exit code 0
