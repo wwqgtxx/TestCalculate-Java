@@ -48,7 +48,7 @@ public class App {
         logger.info("first_step_data_list.size=" + first_step_data_list.size());
         long total_count;
         total_count = IntStream.rangeClosed(1, first_step_data_list.size())
-                .parallel()
+//                .parallel()
                 .mapToObj((i) -> {
                             long count;
                             count = Generator.combination(first_step_data_list)
@@ -75,7 +75,16 @@ public class App {
     }
 
     public static void main(String[] args) {
-        int length = 5;
+        int length;
+        if (args.length >0){
+            length = Integer.parseInt(args[0]);
+        }
+        else{
+            System.out.println("Please input the length:");
+            Scanner input = new Scanner(System.in);
+            length = input.nextInt();
+        }
+        System.out.println("Start Calculate length="+length);
         calculate(length);
 
     }
