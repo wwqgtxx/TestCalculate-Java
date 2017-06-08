@@ -13,6 +13,7 @@ import java.util.stream.IntStream;
  */
 public class App {
     private static Logger logger = LogManager.getLogger(App.class);
+    private static ThreadLocal<BitSet> cache_set_thread_local = ThreadLocal.withInitial(BitSet::new);
 
     public static boolean calculate_second_step(List<BitSet> list) {
 //        logger.info(list); // like: [[1], [1, 2], [1, 2, 4], [3, 4], [2, 3, 4], [1, 3, 4, 5]]
@@ -20,17 +21,18 @@ public class App {
         boolean is_intersection;
         BitSet set_1;
         BitSet set_2;
-        BitSet union_set;
-        BitSet intersection_set;
+        BitSet cache_set = cache_set_thread_local.get();
         for (List<BitSet> item : Generator.combination(list).simple(2)) {
             set_1 = item.get(0);
             set_2 = item.get(1);
-            union_set = (BitSet)set_1.clone();
-            union_set.or(set_2);
-            intersection_set  = (BitSet)set_1.clone();
-            intersection_set.and(set_2);
-            is_union = list.contains(union_set);
-            is_intersection = list.contains(intersection_set);
+            cache_set.clear();
+            cache_set.or(set_1);
+            cache_set.or(set_2);
+            is_union = list.contains(cache_set);
+            cache_set.clear();
+            cache_set.or(set_1);
+            cache_set.and(set_2);
+            is_intersection = list.contains(cache_set);
             if (!is_union || !is_intersection) {
                 return false;
             }
